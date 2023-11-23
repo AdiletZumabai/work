@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swstyle.css">
+    <link rel="icon" type="image/x-icon" href="pic/favicon (1).ico">
+</head>
+<body>
+    <img id="backToTopButton" src="pic/992703.png" alt="Back to Top">
+    <nav class="navbar navbar-expand-lg navbar-dark lightblue-bg">
+        
+
+        <a class="navbar-brand" href="#" id="electrotechLogo" style="color: black">Electrotech</a>
+
+        <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Electrotech2.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu lightblue-bg" aria-labelledby="productsDropdown">
+                        <li><a class="dropdown-item" href="smartwatch.html">Smart Watch</a></li>
+                        <li><a class="dropdown-item" href="headphones.html">Headphones</a></li>
+                        <li><a class="dropdown-item" href="smartphones.html">Smartphones</a></li>
+                        <li><a class="dropdown-item" href="laptop.html">Laptop</a></li>
+                        <li><a class="dropdown-item" href="smarthome.html">Smart home</a></li>
+                        <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <button onclick="showFeedbackForm()">Leave Feedback</button>
+        <div id="feedback-container"></div>
+        
+        <div class="header-icons">
+            <div class="dropdown ml-auto">
+                <a class="dropdown-toggle" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="pic/person-circle.svg" alt="User Profile" class="user-icon">
+                </a>
+                <ul class="dropdown-menu lightblue-bg" aria-labelledby="userDropdown">
+                    <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                    <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <header class="text-center mt-5">
+            <h1>Laptops</h1>
+        </header>
+        
+
+    
+    <div class="container-fluid my-carousel vh-100"> 
+    <div id="carouselExampledark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampledark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampledark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampledark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="pic/laptop 1.jpg" class="d-block w-100" alt="Image 1">
+                <div class="carousel-caption d-none d-md-block ">
+                <h1>Portability</h1>
+                <p>One of the defining features of a laptop is its portability. Unlike desktop computers, laptops are designed to be carried easily.</p>
+            </div>
+        </div>
+            <div class="carousel-item">
+                <img src="pic/laptop 2.jpg" class="d-block w-100" alt="Image 2">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1>Connectivity</h1>
+                    <p>Laptops offer a range of connectivity options, including USB ports, HDMI, audio jacks, Wi-Fi, Bluetooth, and, in some cases, cellular connectivity for internet access on the go.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="pic/laptop 3.png" class="d-block  w-100" alt="Image 3">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h1>Battery Life</h1>
+                    <p>Laptops feature batteries that can last from a few hours to an entire workday, depending on usage and battery capacity.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampledark" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampledark" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
+
+
+
+<div class="container mt-4">
+    <div class="row">
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="pic/mack book 16.jpg" class="card-img-top mx-auto" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Apple MacBook Pro 16</h5>
+                    <p class="card-text">16.2”
+                        Liquid Retina XDR display<br>Apple M2 Pro chip or Apple M2 Max chip<br>12-core
+                        CPU<br>Up to
+                        38-core
+                        GPU<br>8TB
+                        Maximum configurable storage<br>
+                        Up to 22 hours battery life<br>
+                        1080p FaceTime HD camera<br>
+                        Touch ID</p>
+                    <p class="card-text fw-bold">Price: $3199</p>
+                </div>
+                <div class="card-footer text-center lightblue-bg">
+                    <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="pic/asus.webp" class="card-img-top mx-auto" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">ASUS ROG Strix G18</h5>
+                    <p class="card-text">NVIDIA® GeForce RTX™ 4080 Laptop GPU<br>
+                        Windows 11 Pro<br>                        
+                        13th Gen Intel® Core™ i9-13980HX<br>
+                        ROG Nebula Display<br>    
+                        18 inch, QHD+ 16:10 (2560 x 1600, WQXGA), Refresh Rate:240Hz<br>
+                        2TB PCIe® 4.0 NVMe™ <br>M.2 SSD    
+                        </p>
+                    <p class="card-text fw-bold">Price: $2299</p>
+                </div>
+                <div class="card-footer text-center lightblue-bg">
+                    <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="pic/yoga slim 7.webp" class="card-img-top mx-auto" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Lenovo Yoga Slim 7</h5>
+                    <p class="card-text">
+                        10th Generation Intel® Core™ i7 processor (max)<br>
+Windows 10 Pro operating system (max.)<br>
+RAM Up to 16GB of DDR4 memory<br>
+Storage PCIe SSD up to 1TB<br>
+Audio System 2 x 2W front speakers with Dolby Atmos® technology<br>
+Communication media	Wi-Fi 5 
+
+</p>
+                    <p class="card-text fw-bold">Price: $935</p>
+                </div>
+                <div class="card-footer text-center lightblue-bg">
+                    <a href="checkout.html" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="animatedDiv">
+    <p>BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE! BUY FOR LIFE!</p>
+</div>
+
+
+    <div class="logo">
+        <a id="twitterIcon" href="https://twitter.com/?lang=ru"><img src="pic/7455-twitter.png" alt="twitter" width="32px" height="32px"> </a>
+        <a id="facebookIcon" href="https://ru-ru.facebook.com/"><img src="pic/facebook-fill.svg" alt="facebook" width="32px" height="32px"></a>
+        <a id="instagramIcon" href="https://www.instagram.com/"><img src="pic/6645-instagram.png" alt="instagram" width="32px" height="32px"></a>
+    </div>
+     
+    <div class="end">
+        <p>© ElectroTech 2023<br>Electrotech - Your Source for Gadgets</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+    
+    <script src="js/interactive.js"></script>
+    <script src="js/feedback.js"></script>
+    
+
+
+    
+</body>
+</html>

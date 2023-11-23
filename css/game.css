@@ -1,0 +1,65 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+#captcha-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.word {
+    margin: 10px;
+    border: 2px solid #007bff;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+
+.word:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#verify-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#verify-button:hover {
+    background-color: #0056b3;
+}
